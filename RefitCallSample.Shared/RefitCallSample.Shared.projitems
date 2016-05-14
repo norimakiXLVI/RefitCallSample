@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>03aa56f1-7f49-42d5-9e35-337d6f2e87e1</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>RefitCallSample.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)CallApi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GitHubUser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IGitHubApi.cs" />
+  </ItemGroup>
+</Project>
